@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+
+  .option {
+    &:hover {
+      background-color: rgba(230, 230, 230, 0.5);
+    }
+  }
+
+  .button {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    .button {
+      display: block;
+    }
+  }
+}
