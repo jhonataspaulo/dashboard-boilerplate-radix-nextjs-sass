@@ -24,7 +24,7 @@ export const AppBar = () => {
       >
         <RiMenuLine size={28} />
       </Button>
-      <Text>Jhonatas</Text>
+      <Text>Admin</Text>
     </Flex>
   )
 }
